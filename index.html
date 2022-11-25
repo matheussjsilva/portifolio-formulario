@@ -1,77 +1,75 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css" />
-    <title>Pesquisa de Interesses</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css" />
+        <title>Pesquisa de Interesses</title>
+    </head>
 
-<body>
-    <nav>
-        <header>Matheus</header>
-        <section class="nav-items">
-            <a href="#">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Formulario</a>
-        </section>
-    </nav>
-    <section id="home">
-        <div class="container">
-            <div class="column-left">
-                <h1>Só projetos incríveis</h1>
-                <p>
-                    Entre em contato pelo formulario para saber mais sobre aplicações top!
-                </p>
-                <a id="CTA-button" href="#">Comece agora!</a>
+    <body>
+        <nav>
+            <header>Matheus</header>
+            <section class="nav-items">
+                <a href="#">Home</a>
+                <a href="#">Sobre</a>
+                <a href="#">Formulario</a>
+            </section>
+        </nav>
+        <section id="home">
+            <div class="container">
+                <div class="column-left">
+                    <h1>Só projetos incríveis</h1>
+                    <p>
+                        Entre em contato pelo formulario para saber mais sobre aplicações top!
+                    </p>
+                    <a id="CTA-button" href="#">Comece agora!</a>
+                </div>
+
+                <picture class="column-right">
+                    <img src="./images/animation_500_lauxwt1k.gif" alt="illustration" id="home-image" />
+                </picture>
+
             </div>
-
-            <picture class="column-right">
-                <img src="./images/animation_500_lauxwt1k.gif" alt="illustration" id="home-image"/>
-            </picture>
-
-        </div>
-    </section>
-
-    <form action="http://google.com">
-        <section>
-            <h2>Formulário de Interesses</h2>
-            <p>Digite seu nome:
-                <input type="text" name="userName" size="40" maxlength="40" placeholder="Digite seu nome completo">
-            </p>
-            <p>Digite sua profissão:
-                <input type="text" name="userJob" size="40" maxlength="40" placeholder="Digite sua profissão">
-            </p>
-            <p> Nos conte um pouquinho sobre você:
-                <textarea name="userComment" cols="30" rows="4"></textarea>
-            </p>
-            <p>Você faz exercícios regularmente ?
-                <input type="radio" name="exercise" value="1">Sim
-                <input type="radio" name="exercise" value="2">Não
-            </p>
-            <p>Por onde você lê sobre seus tópicos favoritos?
-                <input type="checkbox" name="Books">Livros
-                <input type="checkbox" name="Web">Sites
-                <input type="checkbox" name="Apps">Aplicativos
-                <input type="checkbox" name="Magazines">Revistas
-            </p>
-            <p>Qual gênero de filmes que você mais gosta?
-                <select name="moviePref">
-                    <option></option>
-                    <option value="1">Comédia</option>
-                    <option value="2">Romance</option>
-                    <option value="2">Drama</option>
-                    <option value="2">Terror</option>
-                    <option value="2">Ação</option>
-            </p>
-            </select>
-            </br> </br>
-            <input type="submit" value="ENVIAR">
         </section>
+        <form action="http://google.com">
+            <section>
+                <h2>Formulário de Interesses</h2>
+                <p>Digite seu nome:
+                    <input type="text" name="userName" size="40" maxlength="40" placeholder="Digite seu nome completo">
+                </p>
+                <p>Digite sua profissão:
+                    <input type="text" name="userJob" size="40" maxlength="40" placeholder="Digite sua profissão">
+                </p>
+                <p> Nos conte um pouquinho sobre você:
+                    <textarea name="userComment" cols="30" rows="4"></textarea>
+                </p>
+                <p>Você faz exercícios regularmente ?
+                    <input type="radio" name="exercise" value="1">Sim
+                    <input type="radio" name="exercise" value="2">Não
+                </p>
+                <p>Por onde você lê sobre seus tópicos favoritos?
+                    <input type="checkbox" name="Books">Livros
+                    <input type="checkbox" name="Web">Sites
+                    <input type="checkbox" name="Apps">Aplicativos
+                    <input type="checkbox" name="Magazines">Revistas
+                </p>
+                <p>Qual gênero de filmes que você mais gosta?
+                    <select name="moviePref">
+                        <option></option>
+                        <option value="1">Comédia</option>
+                        <option value="2">Romance</option>
+                        <option value="2">Drama</option>
+                        <option value="2">Terror</option>
+                        <option value="2">Ação</option>
+                    </select>
+                </p>
 
-    </form>
-</body>
+                <input id="form-button"type="submit" value="ENVIAR">
+            </section>
 
+        </form>
+    </body>
 </html>
